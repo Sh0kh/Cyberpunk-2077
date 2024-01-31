@@ -1,0 +1,122 @@
+.paly{
+    background-color: black;
+}
+.play__bg{
+    height: 70px;
+    background-image: url('../img/play__bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play__bg2{
+    height: 70px;
+    background-image: url('../img/play__bg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play__title h1{
+    color: #FFF;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.play__title{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 39px;
+}
+.paly p{
+    width: 952px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    margin-bottom: 50px;
+}
+.paly p span{
+    color: #52BEDC;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+   
+}
+.paly form input{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background: none;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid  #777;
+    display: block;
+    margin-bottom: 55px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.paly form button{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    height: 59px;
+    padding: 15px 50px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #F8F200;
+    cursor: pointer;
+    border: none;
+}
+.play__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.paly form {
+    width: 400px;
+}
+@media(max-width:1010px){
+    .play__wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .paly p{
+        width: auto;
+    }
+}
+@media(max-width:805px){
+    .play__foto img{
+        width: 100%;
+    }
+}
+@media(max-width:506px){
+    .play__title{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media(max-width:400px){
+    .paly form{
+        width: 100%;
+    }
+}
+@media(max-width:350px){
+    .play__title h1{
+        font-size: 40px;
+    }
+}

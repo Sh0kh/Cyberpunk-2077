@@ -1,0 +1,30 @@
+.header svg{
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__icon{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header__hamburger{
+    display: none;
+}
+@media(max-width:760px){
+    .header__wrapper{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media(max-width:420px){
+    .header__icon{
+        display: flex;
+        gap: 20px;
+    }
+}
